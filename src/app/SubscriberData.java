@@ -19,7 +19,7 @@ public class SubscriberData {
                 "C678", 300.0, 90, 5, 6.1);
         array[6] = new Subscriber(7, "Davis", "Ava", "Boston", "4444444444",
                 "C901", 50.0, 55, 5, 1.9);
-        array[7] = new Subscriber(8, "Garcia", "William", "Kyiv", "2222222222",
+        array[7] = new Subscriber(8, "Sem", "William", "Kyiv", "2222222222",
                 "C234", 0.0, 75, 0, 4.4);
         array[8] = new Subscriber(9, "Rodriguez", "Sophia", "Dallas", "8888888888",
                 "C567", -10.0, 65, 0, 2.7);

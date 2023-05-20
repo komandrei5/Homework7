@@ -31,7 +31,9 @@ public class SubscriberServiceImpl implements SubscriberService {
         Subscriber[] subscribers = SubscriberData.subscriberData();
         for (Subscriber s : subscribers) {
             if (s.getLastName().startsWith(prefix)) {
-                System.out.println(s);
+                System.out.println(" " + s.getFirstName() + " " + s.getLastName());
+                System.out.println("Phone number: " + s.getPhoneNumber());
+                System.out.println("Balance: " + s.getBalance());
             }
         }
     }
